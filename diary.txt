@@ -1,0 +1,7 @@
+011722: SETUP LOCAL REPOSITORY
+001 create 100daysofcodePython folder
+002 create diary.txt file
+002 open POWERSHELL as admin
+>>	choco install nano -y
+>>	git init
+>>	nano diary.txt	
