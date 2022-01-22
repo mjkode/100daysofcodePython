@@ -1,7 +1,17 @@
 011722: SETUP LOCAL REPOSITORY
 001 create 100daysofcodePython folder
 002 create diary.txt file
-002 open POWERSHELL as admin
+open POWERSHELL as admin
 >>	choco install nano -y
 >>	git init
->>	nano diary.txt	
+>>	nano diary.txt
+003 create new repo in github
+004 connect to github
+>> git remote add origin https://github.com/mjkode/100DaysOfCode2.git
+>> git branch -M main
+>> git push -u origin main
+005 install python
+download/install python 3.10.2
+download/install atom text editor
+006 create first program
+run 'first.py' from command line, 'python first.py' from powershell, or dblclick 'first.py' from window
