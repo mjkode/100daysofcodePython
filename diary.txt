@@ -17,3 +17,6 @@ run 'first.py' from command line, 'python first.py' from powershell, or dblclick
 1008 update diary
 
 1100 create netsoc.py (#network #socket get http header info and http body from web server)
+1101 install telnet
+1102 github >>git status >>git add . >>git commit -m "Network and Socket Program" >>git push origin main
+1103 create ReqdWebPage/py (#network )
