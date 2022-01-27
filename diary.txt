@@ -39,3 +39,6 @@ run 'first.py' from command line, 'python first.py' from powershell, or dblclick
 >>  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 >>Successfully installed pip-21.3.1
 10303 add directory to path C:\...\AppData\Roaming\Python\Python39\Scripts
+10304 create WebScrapBS.py (#BeautifulSoup)
+10305 github >>git status >>git add . >>git commit -m "BeautifulSoup Get Anchors" >>git push origin main
+10306 update diary
