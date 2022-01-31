@@ -1,44 +1,68 @@
-10000 SET UP
-10001 setup local git repository
-10002 create 100daysofcodePython folder
-10003 create diary.txt file
-(a)open POWERSHELL as admin
->>	choco install nano -y
->>	git init
->>	nano diary.txt
-10004 create new repo in github
-10005 connect to github
+001100 SET UP
+001110 setup new local git repository
+001111 create 100daysofcodePython folder
+001112 create diary.txt file
+  (a)open POWERSHELL as admin
+  >>	choco install nano -y
+  >>	git init
+  >>	nano diary.txt
+001120 setup new repository in github
+001121 connect to github
 >> git remote add origin https://github.com/mjkode/100DaysOfCode2.git
 >> git branch -M main
 >> git push -u origin main
-10006 install python (a)download/install python 3.10.2 (b)download/install atom text editor
+001130 install python (a)download/install python 3.10.2 (b)download/install atom text editor
+001999 update diary / post to github
 
-10100 FIRST PROGRAM
-run 'first.py' from command line, 'python first.py' from powershell, or dblclick 'first.py' from window
-10101 github >>git status >>git add . >>git commit -m "First Python Program" >>git push origin main
-10102 update diary
+002100 FIRST PROGRAM
+002110 create first python program 'first.py'. simple print program
+002120 run 'first.py' from command line 'python first.py'. run from powershell. dblclick 'first.py' from window
+002130 github >>git status >>git add . >>git commit -m "First Python Program" >>git push origin main
+002999 update diary / post to github
 
-10200 NETWORK AND WEB
-10201 create netsoc.py (#network #socket get http header info and http body from web server)
-10202 install telnet
-10203 github >>git status >>git add . >>git commit -m "Network and Socket Program" >>git push origin main
-10204 create ReadWebPage/py (#network #urllib get page as file)
-10205 github >>git status >>git add . >>git commit -m "Reading Web Page" >>git push origin main
+003100 NETWORK AND WEB
+003110 create 'netsoc.py' (#network #socket get http header info and http body from web server)
+003120 install telnet
+003130 github >>git status >>git add . >>git commit -m "Network and Socket Program" >>git push origin main
+003140 create ReadWebPage/py (#network #urllib get page as file)
+003150 github >>git status >>git add . >>git commit -m "Reading Web Page" >>git push origin main
+003999 update diary / post to github
 
-10300 WEBSCRAPING
-10301 install beautifulsoup4
+004100 WEBSCRAPING
+004110 install beautifulsoup4
 >>pip install beautifulsoup4
 >>Defaulting to user installation because normal site-packages is not writeable
 >>Requirement already satisfied: beautifulsoup4 in c:\...\appdata\roaming\python\python39\site-packages (4.9.3)
 >>Requirement already satisfied: soupsieve>1.2; python_version >= "3.0" in c:\...\appdata\roaming\python\python39\site-packages (from beautifulsoup4) (2.2)
-10302 python -m pip install --upgrade pip
+004120 python -m pip install --upgrade pip
 >>Downloading pip-21.3.1-py3-none-any.whl (1.7 MB)
 >>     |████████████████████████████████| 1.7 MB 1.1 MB/s
 >>Installing collected packages: pip
 >>  WARNING: The scripts pip.exe, pip3.9.exe and pip3.exe are installed in 'C:\Users\HP Laptop\AppData\Roaming\Python\Python39\Scripts' which is not on PATH.
 >>  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 >>Successfully installed pip-21.3.1
-10303 add directory to path C:\...\AppData\Roaming\Python\Python39\Scripts
-10304 create WebScrapBS.py (#BeautifulSoup)
-10305 github >>git status >>git add . >>git commit -m "BeautifulSoup Get Anchors" >>git push origin main
-10306 update diary
+004130 add directory to path C:\...\AppData\Roaming\Python\Python39\Scripts
+004140 create WebScrapBS.py (#BeautifulSoup)
+004150 github >>git status >>git add . >>git commit -m "BeautifulSoup Get Anchors" >>git push origin main
+004999 update diary / post to github
+
+005100 MORE WEBSCRAPING
+005110 install requests
+>>pip install requests
+>>Defaulting to user installation because normal site-packages is not writeable
+>>Collecting requests
+>>  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+>>     |████████████████████████████████| 63 kB 117 kB/s
+>>Collecting charset-normalizer~=2.0.0
+>>  Downloading charset_normalizer-2.0.11-py3-none-any.whl (39 kB)
+>>Collecting urllib3<1.27,>=1.21.1
+>>  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+>>     |████████████████████████████████| 138 kB 2.2 MB/s
+>>Collecting certifi>=2017.4.17
+>>  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+>>     |████████████████████████████████| 149 kB 3.2 MB/s
+>>Collecting idna<4,>=2.5
+>>  Downloading idna-3.3-py3-none-any.whl (61 kB)
+>>     |████████████████████████████████| 61 kB 641 kB/s
+>>Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests
+>>Successfully installed certifi-2021.10.8 charset-normalizer-2.0.11 idna-3.3 requests-2.27.1 urllib3-1.26.8
