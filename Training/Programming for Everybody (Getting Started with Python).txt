@@ -1,0 +1,23 @@
+Programming for Everybody (Getting Started with Python) by University of Michigan
+https://www.py4e.com/book
+
+
+Chapter One - Why we Program?
+Charles Russell Severance
+These are the course-wide materials as well as the first part of Chapter One where we explore what it means to write programs. We finish Chapter One and have the quiz and first assignment in the third week of the class. Throughout the course you may want to come back and look at these materials. This section should not take you an entire week.
+Video: LectureVideo: Welcome to Class - Dr. Chuck
+Reading: Reading: Welcome to The Class  10 min
+Video: LectureVideo: Welcome to Python - Guido van Rossum
+Reading: Help Us Learn More About You!
+Reading: Welcome to Python 3
+Reading: Textbook: Python for Everybody: Exploring Data in Python 3
+Reading: Submitting Assignments
+Reading: Course Syllabus
+Lecture materials
+Video: Lecture1.1 - Why Program
+Video: Lecture1.2 - Hardware Overview
+Video: Lecture1.3 - Python as a Language
+Additional Materials
+Reading: Audio Versions of All Lectures
+Video: LectureFun: The Textbook Authors Meet @PyCon2015
+Video: LectureFace to Face Office Hours - Bengaluru, India

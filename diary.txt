@@ -1,3 +1,5 @@
+[123]Control Account(day)[4]WorkPackage[56]Task
+
 001100 SET UP
 001110 setup new local git repository
 001111 create 100daysofcodePython folder
@@ -66,3 +68,20 @@
 >>     |████████████████████████████████| 61 kB 641 kB/s
 >>Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests
 >>Successfully installed certifi-2021.10.8 charset-normalizer-2.0.11 idna-3.3 requests-2.27.1 urllib3-1.26.8
+005120 create WebScrap2.py (#requests write links to file)
+005130 github >>git status >>git add . >>git commit -m "requests from BeautifulSoup. Get Links. Write to file" >>git push origin main
+005210 create WebScrap3.py (#requests #prettify write links to file)
+005220 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
+005999 update diary / post to github
+
+006100 ONLINE CLASS UNIVERSITY OF MICHIGAN CHARLES SEVERANCE
+006110 Signup to audit course
+006111 https://www.coursera.org/learn/python/home https://online.dr-chuck.com/  https://www.py4e.com/
+
+007000 FIND BROKEN LINKS
+007100 create brokenLinks.py (#requests #prettify)
+007110 find all links. >>soup.find_all("a")find
+007111 make internal links testable >>if data.startswith("/"): then data = "https://www.py4e.com" + data
+007112 get link status. >>requests.get(data).status_code
+007120 github >>git status >>git add . >>git commit -m "find broken links >>git push origin main
+007999 update diary / post to github
