@@ -95,4 +95,8 @@
 008300 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
 008999 update diary / post to github
 
+<<<<<<< HEAD:Training/diary.txt
 test edit from pc
+=======
+test edit from github
+>>>>>>> 20b4556ca7525bfe697ccfdd365e5878820ad44c:diary.txt
