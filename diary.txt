@@ -85,3 +85,12 @@
 007112 get link status. >>requests.get(data).status_code
 007120 github >>git status >>git add . >>git commit -m "find broken links >>git push origin main
 007999 update diary / post to github
+
+008000 FIND INTERNAL Links
+008100 create findInternalLinks.py
+008200 create CheckInternalLinks.py
+008210 add import sys to allow command line input
+"url = sys.argv[1]"
+>>python CheckInternalLinks.py https://www.wpsitework.com/HTML_Version/
+008300 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
+008999 update diary / post to github
