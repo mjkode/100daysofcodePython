@@ -1,8 +1,11 @@
-import requests
+import sys  # for commandline input
 from bs4 import BeautifulSoup
+import requests
 
 # input url
-url = input('What is the URL? ')
+
+url = sys.argv[1]
+#url = input('What is the URL? ')
 print(url)
 # urls = 'https://www.py4e.com/lessons' #'https://www.geeksforgeeks.org/'
 grab = requests.get(url)
