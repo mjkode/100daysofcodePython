@@ -94,3 +94,5 @@
 >>python CheckInternalLinks.py https://www.wpsitework.com/HTML_Version/
 008300 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
 008999 update diary / post to github
+
+test edit from pc
