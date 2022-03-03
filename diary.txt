@@ -78,19 +78,27 @@
 006110 Signup to audit course
 006111 https://www.coursera.org/learn/python/home https://online.dr-chuck.com/  https://www.py4e.com/
 
-007000 FIND BROKEN LINKS
-007100 create brokenLinks.py (#requests #prettify)
-007110 find all links. >>soup.find_all("a")find
-007111 make internal links testable >>if data.startswith("/"): then data = "https://www.py4e.com" + data
-007112 get link status. >>requests.get(data).status_code
-007120 github >>git status >>git add . >>git commit -m "find broken links >>git push origin main
+007100 FIND BROKEN LINKS
+007110 create brokenLinks.py (#requests #prettify)
+007120 find all links. >>soup.find_all("a")find
+007121 make internal links testable >>if data.startswith("/"): then data = "https://www.py4e.com" + data
+007122 get link status. >>requests.get(data).status_code
+007130 github >>git status >>git add . >>git commit -m "find broken links >>git push origin main
 007999 update diary / post to github
 
-008000 FIND INTERNAL Links
-008100 create findInternalLinks.py
-008200 create CheckInternalLinks.py
-008210 add import sys to allow command line input
+008100 FIND INTERNAL Links
+008110 create findInternalLinks.py
+008120 create CheckInternalLinks.py
+008130 add import sys to allow command line input
 "url = sys.argv[1]"
 >>python CheckInternalLinks.py https://www.wpsitework.com/HTML_Version/
-008300 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
+008200 github >>git status >>git add . >>git commit -m "requests #prettify >>git push origin main
 008999 update diary / post to github
+
+009100 SCRAPE NEWS HEADLINES
+009110 create ScrapeNews.py (#BeautifulSoup #Pandas #Requests #date from datetime)
+009120 Install pandas (an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools)
+>>pip install pandas
+009130 #BeautifulSoup. Get headlines from NBC (soup.find_all('span',{'class':'tease-card__headline'}))
+009140 #Pandas. Write to csv file set index=True, header=False
+ 
