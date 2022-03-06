@@ -24,5 +24,9 @@ for i in range(len(headlines)):
     print()
 
     data_nbc = pandas.DataFrame(headlines)
+
+# Change Header Column Names While Writing
+    column_names = ['NBC business Headlines']
+
     data_nbc.to_csv(
-        "nbc_business.csv", index=True, header=False)
+        "nbc_business.csv", sep='\t', index=True, header=column_names)
